@@ -1,24 +1,48 @@
+/*Helpful Code from W3 Schools */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #200;
   }
   
   li {
     float: left;
   }
   
+  
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 17px;
     text-decoration: none;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #350;
   }
+  div.profile {
+    margin: 15px;
+    float: center;
+    width: 50px;
+    height: 50px;
+    ; 
+  }
+  
+  div.profile:hover {
+    border: 1px solid #777;
+    width: 55px;
+    height: 55px;
+  }
+  body{
+      background-color: #777;
+  }
+  h2:hover{
+    color: 1px solid #500;
+    background-color: aliceblue;
+    margin: 15px;
+  }
+  
