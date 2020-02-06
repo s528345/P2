@@ -24,8 +24,21 @@ ul {
   li a:hover {
     background-color: #350;
   }
+  ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 17px;
+    text-decoration: none;
+  }
+  
+  
+  ul a:hover {
+    background-color: #350;
+  }
+
   div.profile {
-    margin-left: 1000px;
+    margin-left: 1150px;
     width: 75px;
     height: 75px;
     border-radius: 1px;
@@ -52,13 +65,12 @@ ul {
       color: #300;
       
   }
-  #footer{
+  p.footer{
       padding-bottom: 1.5em;
       margin-bottom: 1em;
+      text-align: center;
   }
-  img {
-    border-radius: 50%;
-  }
+  
   #form{
       margin: 5px 100px;
       text-align: center;
@@ -80,6 +92,52 @@ ul {
   #contact{
     margin: 5px 100px;
   }
-  li.class{
+  li.public{
     right: 1000px;
   }
+  #chiefs{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+  }
+  #royals{
+    color: royalblue;
+    text-align: center;
+    font-size: 25px;
+  }
+  #blues{
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+  }
+  h2{
+    text-align: center;
+  }
+  img.chiefs{
+    size: cover;
+    width: 600px;
+    height: 600px;
+    transform: rotate(90deg);
+    margin-left: 355px;
+    margin-right: 25px;
+  }
+  img.p{
+    border-radius: 50%;
+  }
+  p.me{
+    text-align: center;
+  }
+  iframe.youtube{
+    width: 640px;
+    height: 360px;
+    margin-left: 340px;
+  }
+  button.date{
+    text-align: center;
+    margin-left: 500px;
+  }
+  #date{
+    text-align: center;
+    margin-left: 10px;
+  }
+  
