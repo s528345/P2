@@ -140,4 +140,14 @@ ul {
     text-align: center;
     margin-left: 10px;
   }
+  button.button2{
+    margin: 0px;
+    vertical-align: auto;
+    margin-left: 375px;
+  }
+  p.office{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+  }
   
