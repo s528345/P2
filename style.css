@@ -1,7 +1,7 @@
 /*Helpful Code from W3 Schools */
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: right 0;
     padding: 0;
     overflow: hidden;
     background-color: #200;
@@ -20,15 +20,16 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  /* Change the link color to #350 (green) on hover */
   li a:hover {
     background-color: #350;
   }
   div.profile {
-    margin: 15px;
-    float: center;
-    width: 50px;
-    height: 50px;
+    margin-left: 1000px;
+    width: 75px;
+    height: 75px;
+    border-radius: 1px;
+    float: right 50px;
     ; 
   }
   
@@ -44,5 +45,41 @@ ul {
     color: 1px solid #500;
     background-color: aliceblue;
     margin: 15px;
+    padding: 13px 17px;
   }
-  
+ 
+  p{
+      color: #300;
+      
+  }
+  #footer{
+      padding-bottom: 1.5em;
+      margin-bottom: 1em;
+  }
+  img {
+    border-radius: 50%;
+  }
+  #form{
+      margin: 5px 100px;
+      text-align: center;
+      font-size: 15px;
+  }
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 100px;
+    cursor: pointer;
+  }
+
+  #contact{
+    margin: 5px 100px;
+  }
+  li.class{
+    right: 1000px;
+  }
