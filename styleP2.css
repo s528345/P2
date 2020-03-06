@@ -29,12 +29,9 @@ ul {
     padding: 13px 17px;
     text-decoration: none;
   }
-  
-  
   ul a:hover {
     background-color: #350;
   }
-
   div.profile {
     margin-left: 1150px;
     width: 75px;
@@ -123,7 +120,37 @@ ul {
   .input{
     padding: 5px;
     border-radius: 20px; 
+    float: center;
+    text-align: center;
+    margin-right: 340px;
+    float: right;
   }
+  .interaction{
+    float: center;
+    text-align: center;
+  }
+  button.button{
+    color: blue; 
+    border: 2px grey solid;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px;
+    font-size: 35px;
+    float: center;
+    margin-left: 340px;
+    width: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: grey;
+    border: 2px black solid;
+}
+p.a{
+    float: center;
+    text-align: center;
+}
+
   
 
   
